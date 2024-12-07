@@ -1,11 +1,12 @@
 // import React, { useEffect, useRef } from 'react';
 
-
 // const GoogleMap = ({ apiKey, center }) => {
 //     const mapRef = useRef(null);
 //     const mapInstanceRef = useRef(null);
 //     const markerRef = useRef(null);
+
 //     apiKey = 'AIzaSyArhd05y22cQYGTyOt9ke3KVyD89y5_o_s';
+
 //     useEffect(() => {
 //         // Check if Google Maps is already loaded
 //         if (window.google && window.google.maps) {
@@ -86,7 +87,7 @@ const GoogleMap = ({ apiKey, center }) => {
     const mapInstanceRef = useRef(null);
     const markerRef = useRef(null);
 
-    apiKey = 'AIzaSyArhd05y22cQYGTyOt9ke3KVyD89y5_o_s';
+    apiKey = 'AlzaSylmZy5-Fsdp8ENm1NbfNFVMvq6CnW-1MAz';
 
     useEffect(() => {
         // Check if Google Maps is already loaded
@@ -95,7 +96,7 @@ const GoogleMap = ({ apiKey, center }) => {
         } else {
             // Load Google Maps Script
             const script = document.createElement('script');
-            script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
+            script.src = `https://maps.gomaps.pro/maps/api/js?key=${apiKey} &libraries=geometry,places&callback=initMap`;
             script.async = true;
             script.defer = true;
             script.onload = initializeMap;

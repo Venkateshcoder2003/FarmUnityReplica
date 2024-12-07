@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { User, Calendar, Briefcase, DollarSign, MessageCircle, Bell, HelpCircle, LogOut, ArrowLeft } from 'lucide-react';
 import axios from 'axios';
